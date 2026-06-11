@@ -1,4 +1,3 @@
-"use client";
 // app/layout.tsx — Javari Collections
 // CR AudioViz AI · EIN 39-3646201 · June 2026
 import type { Metadata } from "next";
