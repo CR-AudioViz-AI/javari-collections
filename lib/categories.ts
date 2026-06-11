@@ -1,4 +1,3 @@
-"use client";
 // lib/categories.ts — Javari Collections master category registry
 // CR AudioViz AI · EIN 39-3646201 · June 2026
 
