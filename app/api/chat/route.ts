@@ -45,7 +45,7 @@ export async function POST(req: NextRequest) {
         method: "POST",
         headers: { "Content-Type": "application/json",
                    "Authorization": `Bearer ${GROQ_KEY}` },
-        body: JSON.stringify({ ...payload, model: "llama-3.3-70b-versatile" }),
+        body: JSON.stringify({ ...payload, model: "openai/gpt-oss-120b" }),
       });
       if (r2.ok) {
         return NextResponse.json(await r2.json());
