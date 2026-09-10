@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <div style={{ minHeight: "100vh", background: "#040912" }}>
       {/* Nav */}
-      <nav style={{ background: "#1E3A5F", padding: "0 20px", height: 52,
+      <nav data-app-chrome style={{ background: "#1E3A5F", padding: "0 20px", height: 52,
         display: "flex", alignItems: "center", justifyContent: "space-between",
         position: "sticky", top: 0, zIndex: 100, borderBottom: "1px solid rgba(0,180,216,0.15)" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -121,7 +121,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer style={{ borderTop: "1px solid rgba(0,180,216,0.08)", padding: "12px 24px",
+      <footer data-app-chrome style={{ borderTop: "1px solid rgba(0,180,216,0.08)", padding: "12px 24px",
         textAlign: "center" }}>
         <p style={{ color: "#374151", fontSize: 11, margin: 0 }}>
           © 2026 CR AudioViz AI, LLC — EIN: 39-3646201 ·{" "}
